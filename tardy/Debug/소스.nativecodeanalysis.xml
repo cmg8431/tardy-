@@ -515,28 +515,21 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>240</LINE>
-      <COLUMN>6</COLUMN>
+      <LINE>220</LINE>
+      <COLUMN>5</COLUMN>
     </SFA>
-    <DEFECTCODE>6246</DEFECTCODE>
-    <DESCRIPTION>'result'의 지역 선언이 외부 범위에 있는 같은 이름의 선언을 숨깁니다. 자세한 내용은 줄 '230'('c:\users\cmg84\source\repos\tardy\tardy\소스.c')에 있는 이전 선언을 참조하십시오.</DESCRIPTION>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>함수에서 '512336'바이트의 스택을 사용하는데 이 크기가 /analyze:stacksize '356328'을(를) 초과합니다. 일부 데이터를 힙으로 이동하십시오.</DESCRIPTION>
     <FUNCTION>rmv</FUNCTION>
     <DECORATED>rmv</DECORATED>
     <FUNCLINE>220</FUNCLINE>
-    <PATH>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>230</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-    </PATH>
+    <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>272</LINE>
+      <LINE>266</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
@@ -550,7 +543,7 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>284</LINE>
+      <LINE>278</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
@@ -564,7 +557,7 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>289</LINE>
+      <LINE>283</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
@@ -578,7 +571,7 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>359</LINE>
+      <LINE>356</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
@@ -592,7 +585,7 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>365</LINE>
+      <LINE>362</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
@@ -606,7 +599,7 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>373</LINE>
+      <LINE>370</LINE>
       <COLUMN>7</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
@@ -620,7 +613,7 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>379</LINE>
+      <LINE>376</LINE>
       <COLUMN>7</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
@@ -634,7 +627,7 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>304</LINE>
+      <LINE>301</LINE>
       <COLUMN>33</COLUMN>
     </SFA>
     <DEFECTCODE>6387</DEFECTCODE>
@@ -657,62 +650,50 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>223</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
         <LINE>224</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>225</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>225</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>227</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>228</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>230</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>231</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>234</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>292</LINE>
+        <LINE>286</LINE>
         <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>288</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
@@ -723,25 +704,13 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>296</LINE>
+        <LINE>295</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
         <LINE>297</LINE>
-        <COLUMN>9</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>298</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>300</LINE>
         <COLUMN>9</COLUMN>
         <KEYEVENT>
           <ID>1</ID>
@@ -753,7 +722,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>302</LINE>
+        <LINE>299</LINE>
         <COLUMN>9</COLUMN>
         <KEYEVENT>
           <ID>2</ID>
@@ -765,7 +734,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>304</LINE>
+        <LINE>301</LINE>
         <COLUMN>33</COLUMN>
         <KEYEVENT>
           <ID>3</ID>
@@ -777,7 +746,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>304</LINE>
+        <LINE>301</LINE>
         <COLUMN>33</COLUMN>
         <KEYEVENT>
           <ID>4</ID>
@@ -789,7 +758,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>304</LINE>
+        <LINE>301</LINE>
         <COLUMN>33</COLUMN>
         <KEYEVENT>
           <ID>5</ID>
@@ -804,7 +773,7 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>327</LINE>
+      <LINE>324</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6387</DEFECTCODE>
@@ -827,62 +796,50 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>223</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
         <LINE>224</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>225</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>225</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>227</LINE>
-        <COLUMN>7</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>228</LINE>
-        <COLUMN>6</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>230</LINE>
-        <COLUMN>5</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>231</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>234</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>292</LINE>
+        <LINE>286</LINE>
         <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>288</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
@@ -893,7 +850,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>296</LINE>
+        <LINE>295</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
@@ -905,73 +862,61 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>298</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>300</LINE>
+        <LINE>299</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>302</LINE>
-        <COLUMN>9</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>304</LINE>
+        <LINE>301</LINE>
         <COLUMN>33</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>308</LINE>
+        <LINE>305</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>310</LINE>
+        <LINE>307</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>310</LINE>
+        <LINE>307</LINE>
         <COLUMN>16</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>315</LINE>
+        <LINE>312</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>316</LINE>
+        <LINE>313</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>317</LINE>
+        <LINE>314</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>318</LINE>
+        <LINE>315</LINE>
         <COLUMN>19</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>320</LINE>
+        <LINE>317</LINE>
         <COLUMN>9</COLUMN>
         <KEYEVENT>
           <ID>1</ID>
@@ -983,13 +928,13 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>322</LINE>
+        <LINE>319</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>322</LINE>
+        <LINE>319</LINE>
         <COLUMN>16</COLUMN>
         <KEYEVENT>
           <ID>2</ID>
@@ -1001,7 +946,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>327</LINE>
+        <LINE>324</LINE>
         <COLUMN>8</COLUMN>
         <KEYEVENT>
           <ID>3</ID>
@@ -1013,7 +958,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>327</LINE>
+        <LINE>324</LINE>
         <COLUMN>8</COLUMN>
         <KEYEVENT>
           <ID>4</ID>
@@ -1028,70 +973,70 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>404</LINE>
+      <LINE>401</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>반환 값이 무시되었습니다. 'getch'.</DESCRIPTION>
     <FUNCTION>call</FUNCTION>
     <DECORATED>call</DECORATED>
-    <FUNCLINE>386</FUNCLINE>
+    <FUNCLINE>383</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>476</LINE>
+      <LINE>474</LINE>
       <COLUMN>9</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
     <FUNCTION>call</FUNCTION>
     <DECORATED>call</DECORATED>
-    <FUNCLINE>386</FUNCLINE>
+    <FUNCLINE>383</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>386</LINE>
+      <LINE>383</LINE>
       <COLUMN>5</COLUMN>
     </SFA>
     <DEFECTCODE>28278</DEFECTCODE>
     <DESCRIPTION>범위에 프로토타입이 없는 상태로 call 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.</DESCRIPTION>
     <FUNCTION>call</FUNCTION>
     <DECORATED>call</DECORATED>
-    <FUNCLINE>386</FUNCLINE>
+    <FUNCLINE>383</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>441</LINE>
+      <LINE>439</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>28278</DEFECTCODE>
     <DESCRIPTION>범위에 프로토타입이 없는 상태로 gets 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.</DESCRIPTION>
     <FUNCTION>call</FUNCTION>
     <DECORATED>call</DECORATED>
-    <FUNCLINE>386</FUNCLINE>
+    <FUNCLINE>383</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>457</LINE>
+      <LINE>455</LINE>
       <COLUMN>10</COLUMN>
     </SFA>
     <DEFECTCODE>6387</DEFECTCODE>
-    <DESCRIPTION>'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 428을(를) 참조하십시오.</DESCRIPTION>
+    <DESCRIPTION>'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 426을(를) 참조하십시오.</DESCRIPTION>
     <FUNCTION>call</FUNCTION>
     <DECORATED>call</DECORATED>
-    <FUNCLINE>386</FUNCLINE>
+    <FUNCLINE>383</FUNCLINE>
     <PROBABILITY>1</PROBABILITY>
     <RANK>4</RANK>
     <CATEGORY>
@@ -1101,32 +1046,44 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>388</LINE>
+        <LINE>385</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>390</LINE>
+        <LINE>387</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>413</LINE>
+        <LINE>410</LINE>
         <COLUMN>14</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>416</LINE>
+        <LINE>413</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>417</LINE>
+        <LINE>415</LINE>
         <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>417</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>418</LINE>
+        <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
@@ -1138,30 +1095,18 @@
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
         <LINE>420</LINE>
-        <COLUMN>9</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>421</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>422</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>424</LINE>
+        <LINE>422</LINE>
         <COLUMN>13</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>426</LINE>
+        <LINE>424</LINE>
         <COLUMN>10</COLUMN>
         <KEYEVENT>
           <ID>1</ID>
@@ -1173,13 +1118,13 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>427</LINE>
+        <LINE>425</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>428</LINE>
+        <LINE>426</LINE>
         <COLUMN>52</COLUMN>
         <KEYEVENT>
           <ID>2</ID>
@@ -1191,7 +1136,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>428</LINE>
+        <LINE>426</LINE>
         <COLUMN>52</COLUMN>
         <KEYEVENT>
           <ID>3</ID>
@@ -1203,31 +1148,31 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
         <LINE>432</LINE>
-        <COLUMN>9</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>433</LINE>
-        <COLUMN>9</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>434</LINE>
         <COLUMN>10</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>435</LINE>
+        <LINE>433</LINE>
         <COLUMN>20</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>437</LINE>
+        <LINE>435</LINE>
         <COLUMN>22</COLUMN>
         <KEYEVENT>
           <ID>4</ID>
@@ -1239,7 +1184,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>447</LINE>
+        <LINE>445</LINE>
         <COLUMN>27</COLUMN>
         <KEYEVENT>
           <ID>5</ID>
@@ -1251,19 +1196,19 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
+        <LINE>453</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>454</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
         <LINE>455</LINE>
-        <COLUMN>10</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>456</LINE>
-        <COLUMN>10</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>457</LINE>
         <COLUMN>10</COLUMN>
         <KEYEVENT>
           <ID>6</ID>
@@ -1275,7 +1220,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>457</LINE>
+        <LINE>455</LINE>
         <COLUMN>10</COLUMN>
         <KEYEVENT>
           <ID>7</ID>
@@ -1290,14 +1235,14 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>428</LINE>
+      <LINE>426</LINE>
       <COLUMN>52</COLUMN>
     </SFA>
     <DEFECTCODE>6387</DEFECTCODE>
     <DESCRIPTION>'fp'이(가) '0'일 수 있습니다.  이 경우 'fgets' 함수의 사양과 일치하지 않습니다. </DESCRIPTION>
     <FUNCTION>call</FUNCTION>
     <DECORATED>call</DECORATED>
-    <FUNCLINE>386</FUNCLINE>
+    <FUNCLINE>383</FUNCLINE>
     <PROBABILITY>1</PROBABILITY>
     <RANK>4</RANK>
     <CATEGORY>
@@ -1307,32 +1252,44 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>388</LINE>
+        <LINE>385</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>390</LINE>
+        <LINE>387</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>413</LINE>
+        <LINE>410</LINE>
         <COLUMN>14</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>416</LINE>
+        <LINE>413</LINE>
         <COLUMN>8</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>417</LINE>
+        <LINE>415</LINE>
         <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>417</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
+        <FILENAME>소스.c</FILENAME>
+        <LINE>418</LINE>
+        <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
@@ -1344,30 +1301,18 @@
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
         <LINE>420</LINE>
-        <COLUMN>9</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>421</LINE>
-        <COLUMN>8</COLUMN>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
-        <FILENAME>소스.c</FILENAME>
-        <LINE>422</LINE>
         <COLUMN>6</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>424</LINE>
+        <LINE>422</LINE>
         <COLUMN>13</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>426</LINE>
+        <LINE>424</LINE>
         <COLUMN>10</COLUMN>
         <KEYEVENT>
           <ID>1</ID>
@@ -1379,13 +1324,13 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>427</LINE>
+        <LINE>425</LINE>
         <COLUMN>9</COLUMN>
       </SFA>
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>428</LINE>
+        <LINE>426</LINE>
         <COLUMN>52</COLUMN>
         <KEYEVENT>
           <ID>2</ID>
@@ -1397,7 +1342,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>428</LINE>
+        <LINE>426</LINE>
         <COLUMN>52</COLUMN>
         <KEYEVENT>
           <ID>3</ID>
@@ -1409,7 +1354,7 @@
       <SFA>
         <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
         <FILENAME>소스.c</FILENAME>
-        <LINE>428</LINE>
+        <LINE>426</LINE>
         <COLUMN>52</COLUMN>
         <KEYEVENT>
           <ID>4</ID>
@@ -1424,56 +1369,56 @@
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>530</LINE>
+      <LINE>528</LINE>
       <COLUMN>7</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>반환 값이 무시되었습니다. 'scanf'.</DESCRIPTION>
     <FUNCTION>command</FUNCTION>
     <DECORATED>command</DECORATED>
-    <FUNCLINE>513</FUNCLINE>
+    <FUNCLINE>511</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>593</LINE>
+      <LINE>590</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>반환 값이 무시되었습니다. 'getch'.</DESCRIPTION>
     <FUNCTION>command</FUNCTION>
     <DECORATED>command</DECORATED>
-    <FUNCLINE>513</FUNCLINE>
+    <FUNCLINE>511</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>607</LINE>
+      <LINE>604</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>반환 값이 무시되었습니다. 'getch'.</DESCRIPTION>
     <FUNCTION>command</FUNCTION>
     <DECORATED>command</DECORATED>
-    <FUNCLINE>513</FUNCLINE>
+    <FUNCLINE>511</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>C:\Users\cmg84\source\repos\tardy\tardy\</FILEPATH>
       <FILENAME>소스.c</FILENAME>
-      <LINE>533</LINE>
+      <LINE>531</LINE>
       <COLUMN>6</COLUMN>
     </SFA>
     <DEFECTCODE>28278</DEFECTCODE>
     <DESCRIPTION>범위에 프로토타입이 없는 상태로 call 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.</DESCRIPTION>
     <FUNCTION>command</FUNCTION>
     <DECORATED>command</DECORATED>
-    <FUNCLINE>513</FUNCLINE>
+    <FUNCLINE>511</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
 </DEFECTS>

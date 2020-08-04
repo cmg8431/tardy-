@@ -181,7 +181,7 @@ void search(void)
 	{
 		printf("해당하는 학생이 없습니다.\n");
 		printf("추가하시겠습니까?[Y/N]:");
-		scanf_s("%c", &SCH.YN, 30);
+		scanf_s("%c", &SCH.YN, 1);
 		while (getchar() != '\n');
 
 		if (SCH.YN == 'Y' || SCH.YN == 'y')
@@ -220,21 +220,15 @@ void search(void)
 void rmv(int cnt)
 {
 	LIST RMV;
-	char str[1000][256] = { 0, };
-	int line = 0;
-	int i, n;
-
-	strcat(RMV.name, csv);
-	char singerlist[99] = { "학생목록.csv" };
-
-	int result = strcmp(singerlist, RMV.name);
-	fopen_s(&fp, singerlist, "a+");
-
 
 	if (cnt == 1)
 	{
+		char str[1000][256] = { 0, };
+		int line = 0;
+		int i, n;
 		printf("삭제하고싶은 학생을 입력하세요:");
 		scanf_s("%s", &RMV.name, 30);
+		char singerlist[99] = { "학생목록.csv" };
 
 		strcat(RMV.name, csv);
 		int result = strcmp(singerlist, RMV.name);
@@ -292,6 +286,9 @@ void rmv(int cnt)
 	else if (cnt == 2)
 	{
 		RMV.YN = NULL;
+		char str[1000][256] = { 0, };
+		int line = 0;
+		int i, n;
 
 		printf("삭제하고싶은 학번에 해당하는 학생를 입력해주세요 :");
 		scanf_s("%s", &RMV.name, 30);
@@ -414,11 +411,12 @@ void call(cnt)
 	{
 
 		system("cls");
+
 		CALL.YN = NULL;
 
 		printf("원하는 학생를 입력하세요: ");
 		scanf_s("%s", &CALL.name, 30);
-		strcat(CALL.name, csv); //파일입출력을 불러오기위해서는 .txt가 포함되어야하는데 학생이름과 .txt를 붙임으로써 생략
+		strcat(CALL.name, csv); //파일입출력을 불러오기위해서는 .csv가 포함되어야하는데 학생이름과 .csv를 붙임으로써 생략
 		int result = access(CALL.name, 0);
 
 		if (result == 0)
@@ -462,7 +460,7 @@ void call(cnt)
 			CALL.YN = NULL;
 			printf("해당 학생이 없습니다!\n");
 			printf("추가하시겠습니까?[Y/N]:");
-			scanf_s("%c", &CALL.YN, 30);
+			scanf_s(" %c", &CALL.YN, 1);
 			while (getchar() != '\n');
 
 			if (CALL.YN == 'Y' || CALL.YN == 'y')
@@ -544,7 +542,6 @@ void command(void)
 		printf("사용 하실 목록을 선택하세요: ");
 		scanf_s("%d", &COM.cnt);
 		while (getchar() != '\n');
-
 		rmv(COM.cnt);
 	}
 	else if (ctrl == 1)//ctrl+A (추가하기)
@@ -609,7 +606,6 @@ void command(void)
 		}
 	}
 }
-
 //명령어함수
 
 //메인함수
