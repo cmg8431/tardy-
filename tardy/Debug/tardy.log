@@ -1,0 +1,17 @@
+﻿  소스.c
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(87,7): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(127,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(301,16): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(226,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(226,9): warning C4101: 'n' :참조되지 않은 지역 변수입니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(427,17): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(472,18): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(596,9): warning C4477: 'scanf' : 서식 문자열 '%c'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char **'입니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(599,21): warning C4047: '==': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(599,37): warning C4047: '==': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(607,26): warning C4047: '==': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(607,42): warning C4047: '==': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(581,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(582,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(628,7): warning C4101: 'MAIN' :참조되지 않은 지역 변수입니다.
+  tardy.vcxproj -> C:\Users\cmg84\source\repos\tardy\Debug\tardy.exe
