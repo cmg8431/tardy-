@@ -1,5 +1,4 @@
 #define _CRT_NONSTDC_NO_WARNINGS //비표준 함수를 사용했을시 오류방지
-#define _CRT_SECURE_NO_WARNINGS //scanf 보안 경고로 인한 컴파일 에러 방지
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +7,7 @@
 #include <direct.h>
 #include <Windows.h> 
 #include <io.h> // _creat함수를 쓰기위한 헤더파일 + access함수
-#include <sys/types.h>  // 다양한 데이터 유형ㅇ
+#include <sys/types.h>  // 다양한 데이터 유형
 #include <sys/stat.h> // 파일정보
 #pragma warning(disable:4996)
 
@@ -420,7 +419,7 @@ void call(cnt)
 		}
 		fclose(fp);
 	}
-	else if (cnt == 2)//원하는 가수 - 노래들
+	else if (cnt == 2)//원하는 지각 목록
 	{
 
 		system("cls");
@@ -428,7 +427,7 @@ void call(cnt)
 
 		printf("원하는 학생를 입력하세요: ");
 		gets(CALL.name);
-		strcat(CALL.name, csv); //파일입출력을 불러오기위해서는 .txt가 포함되어야하는데 가수이름과 .txt를 붙임으로써 생략
+		strcat(CALL.name, csv); //파일입출력을 불러오기위해서는 .txt가 포함되어야하는데 학생이름과 .txt를 붙임으로써 생략
 		int result = access(CALL.name, 0);
 
 		if (result == 0)
@@ -533,7 +532,7 @@ void command(void)
 		intro();
 		printf("================================= 메뉴 =================================\n\n");
 		printf("□□□□□□□□□□□□□□  1. 학생 목록  □□□□□□□□□□□□□□\n");
-		printf("□□□□□□□□□□□  2. 해당 학생의 노래 목록  □□□□□□□□□□□\n");
+		printf("□□□□□□□□□□□  2. 해당 학생의 지각 목록  □□□□□□□□□□□\n");
 		printf("□□□□□□□□□□□□□□   3. 메인으로  □□□□□□□□□□□□□□\n");
 		printf("========================================================================\n");
 		printf("보고 싶은 목록을 선택하세요: ");
@@ -593,7 +592,7 @@ void command(void)
 
 		intro();
 		printf("정말 종료하시겠습니까?[Y/N]: ");
-		scanf(" %c", &answer);
+		scanf_s(" %c", &answer);
 		while (getchar() != '\n');
 
 		if (answer == 'Y' || answer == 'y')
