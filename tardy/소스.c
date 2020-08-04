@@ -83,11 +83,11 @@ void add(int cnt)
 		int error;
 
 		printf("추가하실 학생의 이름을 입력하세요 : ");
-		gets(ADD.name);
+		scanf_s("%s", &ADD.name, 30);
 		strcat(ADD.name, csv);
 
 		printf("추가하실 학생의 학번을 입력하세요 : ");
-		gets(ADD.Student_ID);
+		scanf_s("%s", &ADD.Student_ID, 30);
 		strcat(ADD.Student_ID, csv);
 		fopen_s(&fp, "학생목록.csv", "a+");
 
@@ -110,7 +110,7 @@ void add(int cnt)
 	else if (cnt == 2)
 	{
 		printf("지각한 학생의 이름을 입력해주세요 : ");
-		gets(ADD.name);
+		scanf_s("%s", &ADD.name, 30);
 		strcat(ADD.name, csv);
 		int result = access(ADD.name, 0);
 
@@ -125,7 +125,7 @@ void add(int cnt)
 			fopen_s(&fp, ADD.name, "a+");
 			char tardy[99] = { NULL };
 			printf("지각한 년도 날짜 시간을 입력해주세요 (예) 2020/2/17 ): ");
-			gets(tardy);
+			scanf_s("%s", tardy, 30);
 
 			fprintf(fp, "\n%s", tardy);
 			printf(" '%s' 지각이 추가되었습니다.\n", tardy);
@@ -160,7 +160,7 @@ void search(void)
 	char singerlist[99] = { "학생목록.csv" };
 
 	printf("검색하실 학생을 입력해주세요 : ");
-	scanf("%s", &SCH.name);
+	scanf_s(" %s", &SCH.name, 30);
 	char* ptr = strstr(singerlist, SCH.name);
 	fopen_s(&fp, singerlist, "r");
 
@@ -181,7 +181,7 @@ void search(void)
 	{
 		printf("해당하는 학생이 없습니다.\n");
 		printf("추가하시겠습니까?[Y/N]:");
-		scanf("%c", &SCH.YN);
+		scanf_s("%c", &SCH.YN, 30);
 		while (getchar() != '\n');
 
 		if (SCH.YN == 'Y' || SCH.YN == 'y')
@@ -189,11 +189,11 @@ void search(void)
 			system("cls");
 			printf("================================= 메뉴 =================================\n\n");
 			printf("□□□□□□□□□□□□□□  1. 학생 추가  □□□□□□□□□□□□□□\n");
-			printf("□□□□□□□□□□□□□□  2. 노래 추가  □□□□□□□□□□□□□□\n");
+			printf("□□□□□□□□□□□□□□  2. 지각 추가  □□□□□□□□□□□□□□\n");
 			printf("□□□□□□□□□□□□□□   3. 메인으로  □□□□□□□□□□□□□□\n");
 			printf("========================================================================\n");
 			printf("사용 하실 목록을 선택하세요: ");
-			scanf("%d", &SCH.cnt);
+			scanf_s("%d", &SCH.cnt);
 			while (getchar() != '\n');
 
 			add(SCH.cnt);
@@ -233,13 +233,8 @@ void rmv(int cnt)
 
 	if (cnt == 1)
 	{
-		char str[1000][256] = { 0, };
-		int line = 0;
-		int i, n;
-
 		printf("삭제하고싶은 학생을 입력하세요:");
-		gets(RMV.name);
-		char singerlist[99] = { "학생목록.csv" };
+		scanf_s("%s", &RMV.name, 30);
 
 		strcat(RMV.name, csv);
 		int result = strcmp(singerlist, RMV.name);
@@ -259,7 +254,7 @@ void rmv(int cnt)
 		}
 		printf("\n");
 		printf("삭제할 학생을 확인해주세요:");
-		scanf("%d", &n);
+		scanf_s("%d", &n);
 		while (getchar() != '\n');
 
 		fopen_s(&fp, singerlist, "w");
@@ -269,7 +264,6 @@ void rmv(int cnt)
 			if (n != (i + 1))
 				fprintf(fp, "%s", str[i]);
 		}
-
 		fclose(fp);
 
 		if (result == 0)
@@ -298,12 +292,9 @@ void rmv(int cnt)
 	else if (cnt == 2)
 	{
 		RMV.YN = NULL;
-		char str[1000][256] = { 0, };
-		int line = 0;
-		int i, n;
 
 		printf("삭제하고싶은 학번에 해당하는 학생를 입력해주세요 :");
-		gets(RMV.name);
+		scanf_s("%s", &RMV.name, 30);
 		strcat(RMV.name, csv);
 
 		fopen_s(&fp, RMV.name, "r");
@@ -323,7 +314,7 @@ void rmv(int cnt)
 
 		printf("\n");
 		printf("삭제하고싶은 지각 :");
-		scanf("%d", &n);
+		scanf_s("%d", &n);
 		while (getchar() != '\n');
 
 		fopen_s(&fp, RMV.name, "w");
@@ -336,7 +327,7 @@ void rmv(int cnt)
 		fclose(fp);
 
 		printf("삭제되었습니다.\n 목록을 확인하시겠습니까?[Y/N] : ");
-		scanf("%c", &RMV.YN);
+		scanf_s("%c", &RMV.YN, 30);
 		while (getchar() != '\n');
 
 		if (RMV.YN == 'Y' || RMV.YN == 'y')
@@ -426,7 +417,7 @@ void call(cnt)
 		CALL.YN = NULL;
 
 		printf("원하는 학생를 입력하세요: ");
-		gets(CALL.name);
+		scanf_s("%s", &CALL.name, 30);
 		strcat(CALL.name, csv); //파일입출력을 불러오기위해서는 .txt가 포함되어야하는데 학생이름과 .txt를 붙임으로써 생략
 		int result = access(CALL.name, 0);
 
@@ -440,7 +431,7 @@ void call(cnt)
 			}
 			printf("\n");
 			printf("해당 학생의 지각횟수을 추가하시겠습니까?[Y/N] \n");
-			scanf("%c", &CALL.YN);
+			scanf_s("%c", &CALL.YN, 30);
 			while (getchar() != '\n');
 
 			if (CALL.YN == 'Y' || CALL.YN == 'y')
@@ -471,7 +462,7 @@ void call(cnt)
 			CALL.YN = NULL;
 			printf("해당 학생이 없습니다!\n");
 			printf("추가하시겠습니까?[Y/N]:");
-			scanf("%c", &CALL.YN);
+			scanf_s("%c", &CALL.YN, 30);
 			while (getchar() != '\n');
 
 			if (CALL.YN == 'Y' || CALL.YN == 'y')
@@ -504,7 +495,7 @@ void call(cnt)
 	else if (cnt == 3)
 	{
 		intro();
-		printf("메인으로 이동합니다.");
+		printf("메인으로 이동합니다.\n");
 		system("pause");
 		return;
 	}
@@ -551,7 +542,7 @@ void command(void)
 		printf("□□□□□□□□□□□□□□   3. 메인으로  □□□□□□□□□□□□□□\n");
 		printf("========================================================================\n");
 		printf("사용 하실 목록을 선택하세요: ");
-		scanf("%d", &COM.cnt);
+		scanf_s("%d", &COM.cnt);
 		while (getchar() != '\n');
 
 		rmv(COM.cnt);
@@ -565,7 +556,7 @@ void command(void)
 		printf("□□□□□□□□□□□□□□   3. 메인으로  □□□□□□□□□□□□□□\n");
 		printf("========================================================================\n");
 		printf("사용 하실 목록을 선택하세요: ");
-		scanf("%d", &COM.cnt);
+		scanf_s("%d", &COM.cnt);
 		while (getchar() != '\n');
 
 		add(COM.cnt);
@@ -581,18 +572,18 @@ void command(void)
 		char newname[99] = { NULL };
 		intro();
 		printf("학생의 이름을 입력해주세요: ");
-		gets(oldname);
+		scanf_s("%s", &oldname, 30);
 		printf("수정하실 이름을 입력해주세요: ");
-		gets(newname);
+		scanf_s("%s", &newname, 30);
 		change(oldname, newname);
 	}
 	else if (ctrl == 27)
 	{
-		char* answer = NULL;
+		char answer = NULL;
 
 		intro();
 		printf("정말 종료하시겠습니까?[Y/N]: ");
-		scanf_s(" %c", &answer);
+		scanf_s(" %c", &answer, 1);
 		while (getchar() != '\n');
 
 		if (answer == 'Y' || answer == 'y')
@@ -631,7 +622,7 @@ int main(void)
 	intro();
 	printf("□□□□□□□□□ 이용하시려면 패스워드를 입력해주세요. □□□□□□□□□\n");
 	printf("패스워드를 입력해주세요 : ");
-	scanf("%d", &answer);
+	scanf_s("%d", &answer);
 
 	if (answer != pass) {
 

@@ -1,22 +1,44 @@
-﻿  소스.c
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(86,7): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+﻿cl : 명령줄 warning D9025: '/analyze-'을(를) '/analyze:stacksize356328'(으)로 재정의합니다.
+  소스.c
 C:\Users\cmg84\source\repos\tardy\tardy\소스.c(126,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(300,16): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(225,6): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(225,9): warning C4101: 'n' :참조되지 않은 지역 변수입니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(426,17): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(471,18): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(595,11): warning C4477: 'scanf_s' : 서식 문자열 '%c'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'char **'입니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(595,11): message : 이 인수는 변환 지정자에서 사용됩니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(595,11): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(595,11): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(595,11): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%c'에 필요합니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(595,11): message : 이 인수는 버퍼 크기로 사용됩니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(598,21): warning C4047: '==': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(598,37): warning C4047: '==': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(606,26): warning C4047: '==': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(606,42): warning C4047: '==': 'char *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(580,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(581,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(627,7): warning C4101: 'MAIN' :참조되지 않은 지역 변수입니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(294,16): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(417,17): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(441,9): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(462,18): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(571,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(572,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(582,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(618,7): warning C4101: 'MAIN' :참조되지 않은 지역 변수입니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(64): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(69): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(63): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fprintf' 함수의 사양과 일치하지 않습니다. : Lines: 54, 55, 57, 58, 60, 62, 63
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(105): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(120): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(134): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(142): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(148): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(130): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fprintf' 함수의 사양과 일치하지 않습니다. : Lines: 78, 81, 110, 112, 113, 114, 115, 117, 123, 125, 126, 127, 128, 130
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(135): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 130을(를) 참조하십시오.: Lines: 78, 81, 110, 112, 113, 114, 115, 117, 123, 125, 126, 127, 128, 130, 131, 132, 134, 135
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(172): warning C6246: 'ptr'의 지역 선언이 외부 범위에 있는 같은 이름의 선언을 숨깁니다. 자세한 내용은 줄 '164'('c:\users\cmg84\source\repos\tardy\tardy\소스.c')에 있는 이전 선언을 참조하십시오.: Lines: 164
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(215): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(240): warning C6246: 'result'의 지역 선언이 외부 범위에 있는 같은 이름의 선언을 숨깁니다. 자세한 내용은 줄 '230'('c:\users\cmg84\source\repos\tardy\tardy\소스.c')에 있는 이전 선언을 참조하십시오.: Lines: 230
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(272): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(284): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(289): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(359): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(365): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(373): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(379): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(304): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fgets' 함수의 사양과 일치하지 않습니다. : Lines: 222, 223, 224, 225, 227, 228, 230, 231, 234, 292, 294, 296, 297, 298, 300, 302, 304
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(327): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. : Lines: 222, 223, 224, 225, 227, 228, 230, 231, 234, 292, 294, 296, 297, 298, 300, 302, 304, 308, 310, 315, 316, 317, 318, 320, 322, 327
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(404): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(476): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(386): warning C28278: 범위에 프로토타입이 없는 상태로 call 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(441): warning C28278: 범위에 프로토타입이 없는 상태로 gets 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(457): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 428을(를) 참조하십시오.: Lines: 388, 390, 413, 416, 417, 419, 420, 421, 422, 424, 426, 427, 428, 432, 433, 434, 435, 437, 447, 455, 456, 457
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(428): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fgets' 함수의 사양과 일치하지 않습니다. : Lines: 388, 390, 413, 416, 417, 419, 420, 421, 422, 424, 426, 427, 428
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(530): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(593): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(607): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(533): warning C28278: 범위에 프로토타입이 없는 상태로 call 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.
   tardy.vcxproj -> C:\Users\cmg84\source\repos\tardy\Debug\tardy.exe
