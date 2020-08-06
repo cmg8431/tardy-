@@ -91,6 +91,7 @@ void add(int cnt)
 		strcat(ADD.Student_ID, csv);
 		fopen_s(&fp, "학생목록.csv", "a+");
 
+
 		error = _creat(ADD.name, _S_IWRITE); //쓰기허용
 		if (error == -1)
 		{
@@ -114,6 +115,7 @@ void add(int cnt)
 		strcat(ADD.name, csv);
 		int result = access(ADD.name, 0);
 
+
 		if (result == -1)
 		{
 			perror("해당하는 학생이 없습니다!!\n");
@@ -124,11 +126,16 @@ void add(int cnt)
 		{
 			fopen_s(&fp, ADD.name, "a+");
 			char tardy[99] = { NULL };
-			printf("지각한 년도 날짜 시간을 입력해주세요 (예) 2020/2/17 ): ");
+			char time[99] = { NULL };
+			printf("지각한 년도 날짜를 입력해주세요 ((예) 2020/2/17) : ");
 			scanf_s("%s", tardy, 30);
 
-			fprintf(fp, "\n%s", tardy);
-			printf(" '%s' 지각이 추가되었습니다.\n", tardy);
+			printf("지각한 시간을 입력해주세요 ((예) 7:12) : ");
+			scanf_s("%s", time, 30);
+
+
+			fprintf(fp, "\n%s %s" , tardy, time);
+			printf(" '%s %s' 지각이 추가되었습니다.\n", tardy, time);
 			printf("아무키나 눌러주세요!\n");
 
 			getch();
@@ -422,22 +429,26 @@ void call(cnt)
 		if (result == 0)
 		{
 			fopen_s(&fp, CALL.name, "a+");
-			printf("해당 학생의 지각횟수를 불러오는중.\n");
+			printf("해당 학생의 지각횟수를 불러오는중.");
 			while ((fgets(CALL.name, sizeof(CALL.name), fp)) != NULL)
 			{
 				printf("%s", CALL.name);
 			}
 			printf("\n");
 			printf("해당 학생의 지각횟수을 추가하시겠습니까?[Y/N] \n");
-			scanf_s("%c", &CALL.YN, 30);
+			scanf_s(" %c", &CALL.YN, 30);
 			while (getchar() != '\n');
 
 			if (CALL.YN == 'Y' || CALL.YN == 'y')
 			{
 				char input[256];
-				printf("지각횟수를 입력해주세요:");
-				gets(input);
-				fprintf(fp, "\n%s", input);
+				char input2[256];
+				printf("지각한 날짜를 입력해주세요 : ");
+				scanf_s("%s", input, 30);
+				printf("지각한 시간을 입력해주세요 : ");
+				scanf_s("%s", input2, 30);
+
+				fprintf(fp, "\n%s %s", input, input2);
 				printf("추가되었습니다. \n");
 				system("pause"); //콘솔창 멈춤
 				fclose(fp);
@@ -468,6 +479,7 @@ void call(cnt)
 				system("cls");
 				printf("================================= 메뉴 =================================\n\n");
 				printf("□□□□□□□□□□□□□□  1. 학생 추가  □□□□□□□□□□□□□□\n");
+				printf("□□□□□□□□□□□□□□  2. 지각 추가  □□□□□□□□□□□□□□\n");
 				printf("□□□□□□□□□□□□□□   3. 메인으로  □□□□□□□□□□□□□□\n");
 				printf("========================================================================\n");
 				printf("보고 싶은 목록을 선택하세요: ");
@@ -490,21 +502,55 @@ void call(cnt)
 		}
 		fclose(fp);
 	}
+
+
+
+	/*@#@#!@#@!#추가 중!@#!@#@!#!@# -> 몆분 늦었는지 비교 후 늦은 시간마다 벌칙 출력 
 	else if (cnt == 3)
 	{
-		intro();
-		printf("메인으로 이동합니다.\n");
-		system("pause");
-		return;
+		system("cls");
+
+		CALL.YN = NULL;
+		printf("지각한 학생을 입력하세요 : ");
+		scanf_s("%s", &CALL.name, 30);
+		strcat(CALL.name, csv); //파일입출력을 불러오기위해서는 .csv가 포함되어야하는데 학생이름과 .csv를 붙임으로써 생략
+		int result = access(CALL.name, 0);
+		int num1;
+
+		if (result == 0) {
+
+			int i = 0;
+			fopen_s(&fp, CALL.name, "a+");
+			printf("해당 학생의 지각횟수를 불러오는중.");
+			while ((fgets(CALL.name, sizeof(CALL.name), fp)) != NULL)
+			{
+				printf("%d%s" ,i , CALL.name, 30);
+			}
+			printf("\n");
+			printf("다음 중 확인하려는 벌칙의 날짜에 해당하는 번호를 입력해주세요 : \n");
+			scanf_s(" %d", ? 30);
+			while (getchar() != '\n');
+
+
+		}
 	}
-	else if (cnt < 1 || cnt>3)
-	{
-		intro();
-		printf("잘 못 선택하셨습니다.\n 메인으로 돌아갑니다.\n");
-		system("pause");
-		return;
+	*/
+
+			else if (cnt == 4)
+			{
+				intro();
+				printf("메인으로 이동합니다.\n");
+				system("pause");
+				return;
+			}
+			else if (cnt < 1 || cnt>3)
+			{
+				intro();
+				printf("잘 못 선택하셨습니다.\n 메인으로 돌아갑니다.\n");
+				system("pause");
+				return;
+			}
 	}
-}
 //불러오기함수
 
 //명령어함수

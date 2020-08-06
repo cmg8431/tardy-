@@ -1,44 +1,43 @@
 ﻿cl : 명령줄 warning D9025: '/analyze-'을(를) '/analyze:stacksize356328'(으)로 재정의합니다.
   소스.c
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(126,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(288,16): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(415,17): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(439,9): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(460,18): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(568,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(569,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(579,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(614,7): warning C4101: 'MAIN' :참조되지 않은 지역 변수입니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(128,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(129,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(295,16): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(422,17): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(471,18): warning C4047: '=': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(614,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(615,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(625,1): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'void *'과(와) 다릅니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(660,7): warning C4101: 'MAIN' :참조되지 않은 지역 변수입니다.
 C:\Users\cmg84\source\repos\tardy\tardy\소스.c(64): warning C6031: 반환 값이 무시되었습니다. 'getch'.
 C:\Users\cmg84\source\repos\tardy\tardy\소스.c(69): warning C6031: 반환 값이 무시되었습니다. 'getch'.
 C:\Users\cmg84\source\repos\tardy\tardy\소스.c(63): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fprintf' 함수의 사양과 일치하지 않습니다. : Lines: 54, 55, 57, 58, 60, 62, 63
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(105): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(120): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(134): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(142): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(148): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(130): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fprintf' 함수의 사양과 일치하지 않습니다. : Lines: 78, 81, 110, 112, 113, 114, 115, 117, 123, 125, 126, 127, 128, 130
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(135): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 130을(를) 참조하십시오.: Lines: 78, 81, 110, 112, 113, 114, 115, 117, 123, 125, 126, 127, 128, 130, 131, 132, 134, 135
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(172): warning C6246: 'ptr'의 지역 선언이 외부 범위에 있는 같은 이름의 선언을 숨깁니다. 자세한 내용은 줄 '164'('c:\users\cmg84\source\repos\tardy\tardy\소스.c')에 있는 이전 선언을 참조하십시오.: Lines: 164
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(215): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(220): warning C6262: 함수에서 '512336'바이트의 스택을 사용하는데 이 크기가 /analyze:stacksize '356328'을(를) 초과합니다. 일부 데이터를 힙으로 이동하십시오.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(266): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(278): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(283): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(356): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(362): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(370): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(376): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(301): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fgets' 함수의 사양과 일치하지 않습니다. : Lines: 222, 224, 286, 288, 289, 290, 291, 293, 294, 295, 297, 299, 301
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(324): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. : Lines: 222, 224, 286, 288, 289, 290, 291, 293, 294, 295, 297, 299, 301, 305, 307, 312, 313, 314, 315, 317, 319, 324
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(401): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(474): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(383): warning C28278: 범위에 프로토타입이 없는 상태로 call 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(439): warning C28278: 범위에 프로토타입이 없는 상태로 gets 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(455): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 426을(를) 참조하십시오.: Lines: 385, 387, 410, 413, 415, 417, 418, 419, 420, 422, 424, 425, 426, 430, 431, 432, 433, 435, 445, 453, 454, 455
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(426): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fgets' 함수의 사양과 일치하지 않습니다. : Lines: 385, 387, 410, 413, 415, 417, 418, 419, 420, 422, 424, 425, 426
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(528): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(590): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(604): warning C6031: 반환 값이 무시되었습니다. 'getch'.
-C:\Users\cmg84\source\repos\tardy\tardy\소스.c(531): warning C28278: 범위에 프로토타입이 없는 상태로 call 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(106): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(122): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(141): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(149): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(155): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(137): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fprintf' 함수의 사양과 일치하지 않습니다. : Lines: 78, 81, 111, 113, 114, 115, 116, 119, 125, 127, 128, 129, 130, 131, 133, 134, 137
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(142): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 137을(를) 참조하십시오.: Lines: 78, 81, 111, 113, 114, 115, 116, 119, 125, 127, 128, 129, 130, 131, 133, 134, 137, 138, 139, 141, 142
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(179): warning C6246: 'ptr'의 지역 선언이 외부 범위에 있는 같은 이름의 선언을 숨깁니다. 자세한 내용은 줄 '171'('c:\users\cmg84\source\repos\tardy\tardy\소스.c')에 있는 이전 선언을 참조하십시오.: Lines: 171
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(222): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(227): warning C6262: 함수에서 '512336'바이트의 스택을 사용하는데 이 크기가 /analyze:stacksize '356328'을(를) 초과합니다. 일부 데이터를 힙으로 이동하십시오.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(273): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(285): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(290): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(363): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(369): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(377): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(383): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(308): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fgets' 함수의 사양과 일치하지 않습니다. : Lines: 229, 231, 293, 295, 296, 297, 298, 300, 301, 302, 304, 306, 308
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(331): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. : Lines: 229, 231, 293, 295, 296, 297, 298, 300, 301, 302, 304, 306, 308, 312, 314, 319, 320, 321, 322, 324, 326, 331
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(408): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(486): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(390): warning C28278: 범위에 프로토타입이 없는 상태로 call 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(466): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fclose' 함수의 사양과 일치하지 않습니다. 이 오류가 발생할 수 있는 이전 위치는 줄 433을(를) 참조하십시오.: Lines: 392, 394, 417, 420, 422, 424, 425, 426, 427, 429, 431, 432, 433, 437, 438, 439, 440, 442, 456, 464, 465, 466
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(433): warning C6387: 'fp'이(가) '0'일 수 있습니다.  이 경우 'fgets' 함수의 사양과 일치하지 않습니다. : Lines: 392, 394, 417, 420, 422, 424, 425, 426, 427, 429, 431, 432, 433
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(574): warning C6031: 반환 값이 무시되었습니다. 'scanf'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(636): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(650): warning C6031: 반환 값이 무시되었습니다. 'getch'.
+C:\Users\cmg84\source\repos\tardy\tardy\소스.c(577): warning C28278: 범위에 프로토타입이 없는 상태로 call 함수가 표시됩니다.  제한된 분석만 수행할 수 있습니다. 적절한 헤더를 포함하거나 프로토타입을 추가하십시오. 이 경고는 매개 변수나 반환 형식이 함수 선언에서 생략된 경우에도 발생합니다.
   tardy.vcxproj -> C:\Users\cmg84\source\repos\tardy\Debug\tardy.exe
